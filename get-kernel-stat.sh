@@ -20,5 +20,5 @@ echo "kernel lge statistics"
 echo "from: $REV_1"
 echo "to: $REV_2"
 
-cd /home/js1304/Projects/remote_git/linux;
+cd /home/js1304/github/linux;
 git rev-list --author=lge.com --author="Minchan Kim" --author="Namhyung Kim" --no-merges --count $REV_1..$REV_2

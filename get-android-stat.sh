@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#cmd: bash get-android.stat.sh revision HEAD
+
 REV_1=$1
 REV_2=$2
 LOG_FILE=android_lge_stat
